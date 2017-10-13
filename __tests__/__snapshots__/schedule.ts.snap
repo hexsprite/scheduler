@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scheduler schedules single action 1`] = `
+Array [
+  WorkSession {
+    "duration": 1800000,
+    "end": 1977-03-21T09:30:00.000Z,
+    "start": 1977-03-21T09:00:00.000Z,
+  },
+]
+`;
+
+exports[`scheduler schedules two actions 1`] = `
+Array [
+  Array [
+    WorkSession {
+      "duration": 1800000,
+      "end": 1977-03-21T09:30:00.000Z,
+      "start": 1977-03-21T09:00:00.000Z,
+    },
+  ],
+  Array [
+    WorkSession {
+      "duration": 1800000,
+      "end": 1977-03-21T10:00:00.000Z,
+      "start": 1977-03-21T09:30:00.000Z,
+    },
+  ],
+]
+`;
